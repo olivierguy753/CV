@@ -29,7 +29,7 @@ h2 {
      text-decoration:underline;
      }
 
-.bloc-droit {
+.bloc-gauche {
   float:right;
   width:170px;
   color:rebeccapurple;
@@ -40,8 +40,12 @@ h2 {
   font-size: 120%;
   
 }
-
-
+.bloc-droit {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    text-align: right;
+}
 #img1 {
  
       border-radius: 50%;
