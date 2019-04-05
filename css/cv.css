@@ -58,7 +58,12 @@ li {
 }
 #Soustitre {
     color: rebeccapurple;
+    font-size: 120%;
 }
 p {
     font-size: 120%;
+}
+
+.div2 {
+text-align: center;
 }
