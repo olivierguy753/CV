@@ -1,10 +1,34 @@
 h1 {
 color: blue;
 text-align: center;
+position: relative;
 }
+
+
+.bloc-droit {
+  float:right;
+  width:170px;
+  color:rebeccapurple;
+  border-left:solid 1px;
+  padding-left:8px;
+  position: absolute;
+  
+}
+
 
 #img1 {
     display: block;
   margin-left: auto;
       border-radius: 50%;
+      position: top;
+}
+
+h2 {
+    font-weight: bold;
+}
+li {
+    font-weight: bold;
+}
+#Soustitre {
+    color: rebeccapurple;
 }
