@@ -12,19 +12,22 @@ position: relative;
   border-left:solid 1px;
   padding-left:8px;
   position: absolute;
+  margin: 10px;
   
 }
 
 
 #img1 {
-    display: block;
-  margin-left: auto;
+ 
       border-radius: 50%;
-      position: top;
+      position:absolute;
+      top:20px;
+      right:20px;
 }
 
 h2 {
     font-weight: bold;
+        text-decoration:underline;
 }
 li {
     font-weight: bold;
