@@ -4,10 +4,26 @@ body {
 }
 
 h1 {
-color: blue;
+color:rgb(105, 216, 123);
 text-align: center;
 position: relative;
 }
+h1.titre:before {
+    background:rgb(255, 251, 7);
+    width:30px;
+    content:"";
+    display:inline-block;
+    height:15px;
+    margin-right:10px;
+ }
+ h1.titre:after {
+    background:rgb(255, 251, 7);
+    width:30px;
+    content:"";
+    display:inline-block;
+    height:15px;
+    margin-left:10px;
+ }
 h2 {
     font-weight: bold;
      text-decoration:underline;
@@ -21,6 +37,7 @@ h2 {
   padding-left:8px;
   position: absolute;
   margin: 10px;
+  font-size: 120%;
   
 }
 
@@ -37,7 +54,11 @@ h2 {
 
 li {
     font-weight: bold;
+    font-size: 120%;
 }
 #Soustitre {
     color: rebeccapurple;
+}
+p {
+    font-size: 120%;
 }
